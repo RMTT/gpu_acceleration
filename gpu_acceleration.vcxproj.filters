@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{f97a66f0-70ea-4280-841c-c07c667f2cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{deaa35fd-6d9f-4eb6-a8c8-8724d9d26c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{2731a2b2-ba83-4e13-a753-43c91a9ca16f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sobel.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="sobel.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="main.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\CLionProjects\gpu_acceleration\resources\4k.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\5k.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\6k.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="..\..\..\CLionProjects\gpu_acceleration\resources\512x.jpeg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\1080p.jpg">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\21k.png">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
